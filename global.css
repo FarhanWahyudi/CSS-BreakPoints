@@ -1,0 +1,45 @@
+.container {
+  background-color: var(--bg);
+  color: var(--text-color);
+  min-height: 100vh;
+}
+
+.wrapper {
+  max-width: 1536px;
+  margin: 0 auto;
+  background-color: red;
+  padding: 0 80px;
+}
+
+/* my screen 1326px */
+
+@media screen and (max-width: 1536px) {
+  .wrapper {
+    max-width: 1366px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    max-width: 768px;
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    max-width: 640px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .wrapper {
+    max-width: 475px;
+  }
+}
